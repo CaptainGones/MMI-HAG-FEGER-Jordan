@@ -14,7 +14,7 @@ div.titre{
 
 div.rechercher{
 	float: left;
-	margin-left: 50%;
+	margin-left: 54%;
 	line-height: 5vh;
 }
 
@@ -31,6 +31,7 @@ div.log_register, a{
 	text-decoration: none;
 }
 
+
 a:hover{
 	color: white;
 }
@@ -40,4 +41,153 @@ h1{
 	color: #57c5a0;
 	font-size: 1.5em;
 	line-height: 5vh;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav ul{
+ 	width: 180%;
+	font-size: 1em;
+}
+
+nav ul li {
+    display: inline-block;
+    border-left: 1px solid rgba(126,126,126,0.5);
+    height: 60px;
+}
+
+nav ul a:hover {
+    color: #57c5a0;
+}
+
+nav ul li:nth-child(6){
+    border-right: 1px solid rgba(126,126,126,0.5);
+}
+
+.margin{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: #242424;
+    line-height: 60px;
+}
+
+div.etoile, div.panier{
+	float: right;
+}
+
+div.etoile{
+	border-right: 1px solid rgba(126,126,126,0.5);
+    border-left: 1px solid rgba(126,126,126,0.5);
+    height: 60px;
+    width: 90px;
+}
+
+div.panier{
+	border-right: 1px solid rgba(126,126,126,0.5);
+    height: 60px;
+    width: 90px;
+}
+
+
+
+div.nbr_etoile{
+    float: right;
+    background-color: #adadad;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+div.nbr_panier{
+    float: right;
+    background-color: #57c5a0;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+div.alignement{
+	margin: 20px auto;
+	width: 45px;
+
+}
+
+/* Partie Slider */
+
+div.slider{
+	background-color: #eeece8;
+}
+
+div.slider{
+	overflow: auto;
+}
+
+div.photo_banniere{
+	float: left;
+}
+
+div.infos_banniere{
+	margin-left: 500px;
+	padding: 50px;
+}
+
+div.prix{
+	display: inline-block;
+	font-weight: bold;
+    color: #FFF;
+    padding: 25px 10px;
+    background-color: #57c5a0;
+}
+
+h2{
+	font-size: 3em;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+div.vignettes_actions{
+	margin-top: 20px;
+}
+
+div.vignettes_actions li{
+    display: inline-block;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+div.defilement{
+	color: white;
+	background-color: #2e2e2e;
+}
+
+div.texte{
+	display: inline-block;
+	padding: 25px;
+}
+
+p.txt_principal{
+	color: #979797;
+}
+
+p.legende{
+	color: #545454;
+}
+
+div.barre{
+	height: 20px;
+	background-color: blue;
+}
+div.barre1{
+	background-color: black;
+	height: 10px;
 }
