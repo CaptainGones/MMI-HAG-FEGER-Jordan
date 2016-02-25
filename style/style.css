@@ -191,3 +191,7 @@ div.barre1{
 	background-color: black;
 	height: 10px;
 }
+
+.fa:hover{
+	color: #57c5a0;
+}
