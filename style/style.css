@@ -222,3 +222,32 @@ div.rubrique_texte_barre:hover > div.emplacement_barre .barre{
     color: white;
 }
 
+
+/*  ---------------------------- MENU VIGNETTE ----------------------- */
+div.blocs_categorie{
+	background-color: #242424;
+	height: 200px;
+}
+
+div.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.bloc1_vignette, div.bloc2_vignette, div.bloc3_vignette{
+	padding: 1em;
+	margin: 1em;
+}
+
+div.bloc1_vignette{
+	background-image: url("../images/on_sale.png");
+}
+
+div.bloc2_vignette{
+	background-image: url("../images/special_offers.png");
+}
+
+div.bloc3_vignette{
+	background-image: url("../images/must_have.png");
+}
