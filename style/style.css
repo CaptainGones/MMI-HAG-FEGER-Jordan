@@ -1,3 +1,8 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+}
+
 header{
 	background-color: #242424;
 	height: 5vh;
@@ -32,7 +37,7 @@ div.log_register, a{
 }
 
 
-a:hover{
+a.hover_white:hover{
 	color: white;
 }
 
@@ -58,7 +63,7 @@ nav ul li {
     height: 60px;
 }
 
-nav ul a:hover {
+nav ul a.hover_white:hover {
     color: #57c5a0;
 }
 
@@ -70,7 +75,7 @@ nav ul li:nth-child(6){
     margin: 0 20px;
 }
 
-nav ul li a{
+nav ul li a.hover_white{
     color: #242424;
     line-height: 60px;
 }
@@ -151,6 +156,10 @@ h2{
 	font-size: 3em;
 }
 
+h3{
+	font-size: 1.2em;
+}
+
 p{
 	font-size: 1.2em;
 }
@@ -170,9 +179,10 @@ div.defilement{
 	background-color: #2e2e2e;
 }
 
-div.texte{
+div.rubrique_texte_barre{
 	display: inline-block;
-	padding: 25px;
+	text-align: center;
+	margin-bottom: 25px;
 }
 
 p.txt_principal{
@@ -183,15 +193,32 @@ p.legende{
 	color: #545454;
 }
 
-div.barre{
-	height: 20px;
-	background-color: blue;
+div.emplacement_barre{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-div.barre1{
+
+div.emplacement_texte{
+	width: 180px;
+	color: #7e7e7e;
+}
+
+div.barre{
+	height: 8px;
+	border-right: 2px solid grey; 
 	background-color: black;
-	height: 10px;
 }
 
 .fa:hover{
 	color: #57c5a0;
 }
+
+div.rubrique_texte_barre:hover > div.emplacement_barre .barre{
+	background-color: #57c5a0;
+}
+
+.emplacement_texte:hover{
+    cursor: pointer;
+    color: white;
+}
+
