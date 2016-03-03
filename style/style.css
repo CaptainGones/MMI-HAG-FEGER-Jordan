@@ -298,3 +298,54 @@ div.articles1{
 a.showall:hover{
 	color: white;
 }
+
+div.articles_body{
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.article{
+	text-align: center;
+	background-color: white;
+	margin: 1em;
+	width: 300px;
+	height: 250px;
+}
+
+div.talon1{
+	background-image: url("../images/talon1.png");
+
+}
+
+div.talon2{
+	background-image: url("../images/talon2.png");
+}
+
+div.talon3{
+	background-image: url("../images/talon3.png");
+}
+
+div.talon1, .talon2, .talon3{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+div.nom_talon{
+	border-top: 1px solid #c9c2b6;
+	background-color: white;
+	padding: 10px;
+}
+
+div.prix_talon{
+	float: left;
+	font-weight: bold;
+    color: #FFF;
+    padding: 25px 10px;
+    background-color: #57c5a0;
+}
+hr{
+	clear: both;
+}
