@@ -224,20 +224,23 @@ div.rubrique_texte_barre:hover > div.emplacement_barre .barre{
 
 
 /*  ---------------------------- MENU VIGNETTE ----------------------- */
-div.blocs_categorie{
+div.categorie{
 	background-color: #242424;
-	height: 200px;
+}
+
+div.blocs_categorie{
+    display: flex;
+    justify-content: center;
+    font-family: 'open_sansregular';
 }
 
 div.container{
+	margin: 0.7em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-div.bloc1_vignette, div.bloc2_vignette, div.bloc3_vignette{
-	padding: 1em;
-	margin: 1em;
+	width: 280px;
+    height: 158px;
 }
 
 div.bloc1_vignette{
@@ -251,3 +254,12 @@ div.bloc2_vignette{
 div.bloc3_vignette{
 	background-image: url("../images/must_have.png");
 }
+
+div.infos_bloc_txt{
+	padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+/* --------------------------------- CORPS AVEC LES PRODUITS ------------------- */
