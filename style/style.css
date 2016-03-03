@@ -199,7 +199,7 @@ div.emplacement_barre{
 }
 
 div.emplacement_texte{
-	width: 180px;
+	width: 170px;
 	color: #7e7e7e;
 }
 
@@ -263,3 +263,38 @@ div.infos_bloc_txt{
 }
 
 /* --------------------------------- CORPS AVEC LES PRODUITS ------------------- */
+
+div.corps{
+	background-color: #ebe7df;
+}
+
+div.entete{
+	height: 50px;
+}
+
+div.bouton_show{
+	float: right;
+	margin-top: 30px;
+	display: inline-block;
+  	vertical-align: middle;
+  	border: 1px solid #bcb5a7;
+  	padding: 10px;
+  	width: 60px;
+}
+
+h4{
+	font-size: 1.4em;
+	margin-top: 30px;
+}
+
+div.articles1{
+	height: 200px;
+}
+
+.bouton_show:hover{
+	background-color: #57c5a0;
+}
+
+a.showall:hover{
+	color: white;
+}
