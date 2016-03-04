@@ -129,10 +129,7 @@ div.alignement{
 
 div.slider{
 	background-color: #eeece8;
-}
-
-div.slider{
-	overflow: auto;
+	overflow: hidden;
 }
 
 div.photo_banniere{
@@ -287,7 +284,7 @@ h4{
 	margin-top: 30px;
 }
 
-div.articles1{
+div.bloc_articles{
 	height: 390px;
 }
 
@@ -347,6 +344,102 @@ div.on_sale{
     background-color: #242424;
 }
 
-hr{
-	clear: both;
+div.out_of_stock{
+	top: 0;
+	font-weight: bold;
+    color: #FFF;
+    position: absolute;
+    padding: 25px 10px;
+    right: 0;
+    right: 10px;
+    background-color: #f27e4b;
+}
+
+/* --------------------------------------- ESPACE BLOG -------------------------------- */
+
+div.blog{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.bloc1, div.bloc2 {
+	background-color: #dfdbd4;
+	float: left;
+	padding: 15px;
+	width: 200px;
+	height: 240px;
+	margin-right: 20px;
+}
+
+
+div.bloc3{
+	background-color: #dfdbd4;
+	float: left;
+	width: 400px;
+	padding: 15px;
+	height: 240px;
+}
+
+h5{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+p.txt_blog{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.date_contenu{
+	height: 70px;
+}
+div.date{
+	float: left;
+	font-weight: bold;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    background-color: #57c5a0;
+}
+
+div.contenu_date{
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+h6{
+	font-size: 1.05em;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+/* -------------------------------------- WIDGET ----------------------------- */
+
+div.widget{
+	background-color: #242424;
+}
+
+span.titre_widget{
+	font-size: 1.05em;
+	color: #7d7d7d;
+	font-weight: bold;
+}
+
+div.widget_ensemble{
+	padding: 50px;
+	display: inline-block;
+}
+
+p.white{
+	margin-top: 10px;
+	font-style: italic;
+	text-align: justify;
+	color: #a4a4a4;
+}
+
+div.widget1, div.widget2{
+	float: left;
+	width: 260px;
+	margin-right: 30px;
 }
