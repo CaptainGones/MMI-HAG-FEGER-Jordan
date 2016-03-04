@@ -288,7 +288,7 @@ h4{
 }
 
 div.articles1{
-	height: 200px;
+	height: 390px;
 }
 
 .bouton_show:hover{
@@ -311,26 +311,13 @@ div.article{
 	background-color: white;
 	margin: 1em;
 	width: 300px;
-	height: 250px;
+	position: relative;
 }
 
-div.talon1{
-	background-image: url("../images/talon1.png");
-
-}
-
-div.talon2{
-	background-image: url("../images/talon2.png");
-}
-
-div.talon3{
-	background-image: url("../images/talon3.png");
-}
 
 div.talon1, .talon2, .talon3{
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
+	height: 250px;
+
 }
 
 div.nom_talon{
@@ -340,12 +327,26 @@ div.nom_talon{
 }
 
 div.prix_talon{
-	float: left;
+	bottom: 0;
 	font-weight: bold;
     color: #FFF;
+    position: absolute;
     padding: 25px 10px;
+    left: 10px;
     background-color: #57c5a0;
 }
+
+div.on_sale{
+	top: 0;
+	font-weight: bold;
+    color: #FFF;
+    position: absolute;
+    padding: 25px 10px;
+    right: 0;
+    right: 10px;
+    background-color: #242424;
+}
+
 hr{
 	clear: both;
 }
