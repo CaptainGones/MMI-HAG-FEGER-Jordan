@@ -416,7 +416,7 @@ h6{
 
 /* -------------------------------------- WIDGET ----------------------------- */
 
-div.widget{
+div.widget_newsletter{
 	background-color: #242424;
 }
 
@@ -429,17 +429,101 @@ span.titre_widget{
 div.widget_ensemble{
 	padding: 50px;
 	display: inline-block;
+	width: 100%;
 }
 
 p.white{
 	margin-top: 10px;
 	font-style: italic;
 	text-align: justify;
+	font-size: 1em;
 	color: #a4a4a4;
 }
 
-div.widget1, div.widget2{
+div.widget1, div.widget2, div.widget3{
 	float: left;
-	width: 260px;
-	margin-right: 30px;
+	margin-right: 20px;
+}
+
+div.widget1{
+	width: 30%;
+}
+
+div.widget2{
+	width: 30%;
+}
+
+div.widget3{
+	width: 33%;
+}
+
+span.user_twitter{
+	color: #57c5a0;
+}
+
+p.tweet_date{
+	margin-top: 5px;
+	font-size: 1em;
+	font-style: italic;
+	color: white;
+}
+
+div.img_flickr{
+	clear: both;
+}
+
+.flickr_l1 li, .flickr_l2 li{
+    float: left;
+    margin: 2px;
+}
+
+/* ------------------------------------------------- NEWSLETTER -------------------------------------------- */
+
+hr.black{
+	height: 1px;
+  margin: -0.5em 0;
+  padding: 0;
+  color: #1c1c1c;
+  background-color: #1c1c1c;
+  border: 0;
+}
+
+div.form_reseaux{
+	padding: 50px;
+	display: inline-block;
+	width: 100%;
+}
+
+div.formulaire{
+	float: left;
+	width: 50%;
+}
+
+input[type="text"]{
+	width: 45%;
+	height: 35px;
+    background-color: #2e2e2e;
+    border: none;
+    color: #7d7d7d;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background-color: #7d7d7d;
+    height: 35px;
+    width: 40px;
+    color: #2e2e2e;
+}
+
+div.reseaux_sociaux{
+	float: left;
+	display: flex;
+}
+
+img.espace{
+	margin-right: 10px;
 }
