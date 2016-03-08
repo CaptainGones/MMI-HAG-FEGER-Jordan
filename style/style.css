@@ -414,6 +414,9 @@ h6{
 	margin-bottom: 3px;
 }
 
+div.calendrier{
+	margin-top: 20px;
+}
 /* -------------------------------------- WIDGET ----------------------------- */
 
 div.widget_newsletter{
@@ -526,4 +529,14 @@ div.reseaux_sociaux{
 
 img.espace{
 	margin-right: 10px;
+}
+
+/* ----------------------------- COPYRIGHTS ----------------------------------------- */
+
+div.pied{
+	background-color: #2e2e2e;
+}
+
+div.copyrights{
+	padding: 30px;
 }
