@@ -288,12 +288,15 @@ div.bloc_articles{
 	height: 390px;
 }
 
-.bouton_show:hover{
+div.bouton_show:hover{
 	background-color: #57c5a0;
+	cursor: pointer;
 }
 
-a.showall:hover{
-	color: white;
+p.showall{
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 1em;
 }
 
 div.articles_body{
@@ -321,6 +324,7 @@ div.nom_talon{
 	border-top: 1px solid #c9c2b6;
 	background-color: white;
 	padding: 10px;
+	font-weight: bold;
 }
 
 div.prix_talon{
@@ -390,9 +394,11 @@ p.txt_blog{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 div.date_contenu{
 	height: 70px;
 }
+
 div.date{
 	float: left;
 	font-weight: bold;
