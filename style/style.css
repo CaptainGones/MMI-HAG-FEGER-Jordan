@@ -483,7 +483,7 @@ div.img_flickr{
 /* ------------------------------------------------- NEWSLETTER -------------------------------------------- */
 
 hr.black{
-	height: 1px;
+  height: 1px;
   margin: -0.5em 0;
   padding: 0;
   color: #1c1c1c;
@@ -535,8 +535,25 @@ img.espace{
 
 div.pied{
 	background-color: #2e2e2e;
+	overflow: hidden;
+}
+
+div.bas{
+	display: inline-block;
+	padding: 50px;
 }
 
 div.copyrights{
-	padding: 30px;
+	float: left;
+	font-size: 0.9em;
+	line-height: 20px;
+}
+
+div.chemin{
+	margin-left: 150px;
+	float: left;
+}
+
+p.foot_txt{
+	color: #979797;
 }
