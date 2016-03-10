@@ -17,6 +17,10 @@ div.titre{
 	float: left;
 }
 
+li.active {
+    border-bottom: 5px solid #57c5a0;
+}
+
 div.rechercher{
 	float: left;
 	margin-left: 54%;
@@ -41,12 +45,12 @@ a.hover_white:hover{
 	color: white;
 }
 
-
 h1{
 	color: #57c5a0;
 	font-size: 1.5em;
 	line-height: 5vh;
 }
+
 
 nav{
     display: inline-block;

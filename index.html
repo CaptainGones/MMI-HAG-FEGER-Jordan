@@ -32,13 +32,13 @@
 		</header>
 				<div class="wrap">
 					<nav>
-						<ul>
-							<li><div class="margin"><a class="hover_white" href="#">Home</a></div></li>
-							<li><div class="margin"><a class="hover_white" href="#">Products</a></div></li>
-							<li><div class="margin"><a class="hover_white" href="#">About</a></div></li>
-							<li><div class="margin"><a class="hover_white" href="#">Pages</a></div></li>
-							<li><div class="margin"><a class="hover_white" href="#">Bloc</a></div></li>
-							<li><div class="margin"><a class="hover_white" href="#">Contact</a></div></li>
+						<ul class="nav">
+							<li><div class="margin"><a href="#" class="hover_white">Home</a></div></li><!-- 
+							 --><li><div class="margin"><a href="#" class="hover_white">Products</a></div></li><!-- 
+							 --><li><div class="margin"><a href="#" class="hover_white">About</a></div></li><!-- 
+							 --><li><div class="margin"><a href="#" class="hover_white">Pages</a></div></li><!-- 
+							 --><li><div class="margin"><a href="#" class="hover_white">Bloc</a></div></li><!-- 
+							 --><li><div class="margin"><a href="#" class="hover_white">Contact</a></div></li>
 						</ul>
 					</nav>
 					<div class="panier">
@@ -395,3 +395,20 @@
  		</footer>
 	</body> 
 </html>
+
+<script type="text/javascript">
+	var selector, elems, makeActive;
+
+	selector = '.nav li';
+	elems = document.querySelectorAll(selector);
+
+	makeActive = function () {
+	    for (var i = 0; i < elems.length; i++)
+	        elems[i].classList.remove('active');
+	    
+	    this.classList.add('active');
+	};
+
+	for (var i = 0; i < elems.length; i++)
+    elems[i].addEventListener('mousedown', makeActive);
+</script>
