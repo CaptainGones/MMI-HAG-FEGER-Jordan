@@ -339,7 +339,38 @@ div.nom_talon{
 	border-top: 1px solid #c9c2b6;
 	background-color: white;
 	padding: 10px;
+	height: 30px;
 	font-weight: bold;
+}
+
+div.second_info{
+	border-top: 1px solid #c9c2b6;
+	background-color: white;
+	padding: 10px;
+	height: 30px;
+	font-weight: bold;
+}
+
+li.t{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+div.mainContainer{
+	padding: 10px;
+	height: 30px;
+	overflow: hidden;
+	cursor: default;
+	-webkit-user-select: none;
+}
+
+.mainContainer:hover > .second_info{
+position:relative;
+margin-top: -50px;
+-webkit-transition-property: margin-top;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease-in;
 }
 
 div.prix_talon{
@@ -350,6 +381,7 @@ div.prix_talon{
     padding: 25px 10px;
     left: 10px;
     background-color: #57c5a0;
+    z-index: 1;
 }
 
 div.on_sale{
@@ -544,11 +576,12 @@ button{
 }
 
 div.reseaux_sociaux{
-	float: right;
+	margin-left: 100px;
+	float: left;
 	display: inline-block;
 }
 
-div.reseaux_sociaux, li{
+div.reseaux_sociaux, li.rez{
 	display: inline-block;
     background-color: #2e2e2e;
     padding: 10px;
