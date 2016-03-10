@@ -288,15 +288,30 @@ div.bloc_articles{
 	height: 390px;
 }
 
-div.bouton_show:hover{
-	background-color: #57c5a0;
-	cursor: pointer;
-}
 
 p.showall{
 	color: #7e7e7e;
 	cursor: pointer;
 	font-size: 1em;
+}
+
+.effect {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.effect:hover, .effect:focus, .effect:active {
+  background-color: #57c5a0;
+  color: white;
+  border: 1px solid #57c5a0;
 }
 
 div.articles_body{
@@ -529,10 +544,20 @@ button{
 }
 
 div.reseaux_sociaux{
-	float: left;
-	display: flex;
+	float: right;
+	display: inline-block;
 }
 
+div.reseaux_sociaux, li{
+	display: inline-block;
+    background-color: #2e2e2e;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+div.reseaux_sociaux, a:hover{
+    color: #57c5a0;
+}
 img.espace{
 	margin-right: 10px;
 }
